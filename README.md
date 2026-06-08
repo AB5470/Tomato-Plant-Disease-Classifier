@@ -20,7 +20,7 @@ Here is a live look at the user interface and prediction workflow:
 
 | 🖥️ Main Upload Dashboard | 📊 Live Prediction Result |
 |:---:|:---:|
-| ![Dashboard Screenshot](Dashboard_Screenshot.jpg) | ![Prediction Screenshot](Prediction_Screenshot.jpg) |
+| ![Dashboard Screenshot](Dashboard_Screenshot.png) | ![Prediction Screenshot](Prediction_Screenshot.png) |
 
 ---
 
