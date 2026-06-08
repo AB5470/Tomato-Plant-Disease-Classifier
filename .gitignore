@@ -1,0 +1,16 @@
+# Python (Backend) Virtual Environment & Cache
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Node (Frontend) Dependencies & Builds
+frontend/node_modules/
+node_modules/
+frontend/dist/
+frontend/.vite/
+dist/
+
+# Logs and OS trash
+*.log
+.DS_Store
+.env
