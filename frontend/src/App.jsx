@@ -26,7 +26,7 @@ export default function App() {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/predict", {
+      const response = await fetch("https://tomato-plant-disease-classifier.onrender.com/predict", {
         method: "POST",
         body: formData,
       });
@@ -34,7 +34,7 @@ export default function App() {
       setData(resData);
     } catch (error) {
       console.error("Error predicting:", error);
-      alert("Backend se connect nahi ho pa rha hai! Check karo ki uvicorn server chal rha hai ya nahi.");
+      alert("Not connected to the backend! Check if uvcorn server is running or not");
     } finally {
       setLoading(false);
     }
